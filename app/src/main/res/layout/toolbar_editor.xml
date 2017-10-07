@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="5">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="EDITOR"
+            android:paddingTop="5dp"
+            android:textSize="25sp"
+            android:layout_weight="4"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/f5f5f5"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:id="@+id/action_insert_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:src="@drawable/icon_image" />
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.Toolbar>
