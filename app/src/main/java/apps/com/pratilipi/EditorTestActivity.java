@@ -130,12 +130,7 @@ public class EditorTestActivity extends AppCompatActivity {
 
                 boolean isInternetAvailable = Utils.isInternetAvailable(getApplicationContext());
                 if (isInternetAvailable) {
-                    try {
 
-
-                    } catch (Exception e) {
-
-                    }
                 } else {
                     Toast.makeText(getApplicationContext(), "Please turn on internet for syncing data", Toast.LENGTH_LONG).show();
                 }
